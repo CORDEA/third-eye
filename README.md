@@ -1,5 +1,7 @@
 # third-eye
 
+Command to encrypt / decrypt file name.
+
 ## Usage
 
 ```console
