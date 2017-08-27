@@ -79,7 +79,7 @@ func main() {
 		if err != nil {
 			glog.Fatalln(err)
 		}
-		k := strings.Trim(string(bytes), "\n")
+		k := strings.Trim(string(bytes), "\r\n")
 		if sLen := len(k); sLen != 32 {
 			kLen := aLen
 			if sLen > aLen {
